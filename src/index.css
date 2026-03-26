@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #7C3AED #12121A;
+}
+
+*::-webkit-scrollbar {
+  width: 6px;
+}
+
+*::-webkit-scrollbar-track {
+  background: #12121A;
+}
+
+*::-webkit-scrollbar-thumb {
+  background: #7C3AED;
+  border-radius: 3px;
+}
+
+::selection {
+  background: rgba(124, 58, 237, 0.3);
+}
